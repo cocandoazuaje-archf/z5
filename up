@@ -1,3 +1,4 @@
-v="up_Wed Sep 16 17:16:07 -03 2026_8"
+git pull
+v="up_Wed Sep 16 17:16:07 -03 2026_"
 git add -f .
 git commit -m "$v"
