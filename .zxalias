@@ -1,0 +1,427 @@
+
+#!/usr/bin/env zsh
+# ============================================================
+# ALIAS Y FUNCIONES VARIOS
+# Autor: Carlos Eduardo Ocando Azuaje
+# Descripción: Colección de alias y funciones para automatizar tareas
+# ============================================================
+
+# Colores
+RED="\033[1;31m"
+RESET="\033[0m"
+
+# ============================================================
+# SISTEMA Y TERMINAL
+# ============================================================
+
+# Elimina un alias definido previamente en la sesión
+alias un='unalias'
+
+# Resalta las coincidencias de búsqueda con colores en la terminal
+alias grep='grep --color=auto'
+
+# Abre la aplicación Kitty terminal
+alias terminal='open -a kitty.app'
+
+# Abre una nueva instancia independiente de la terminal Kitty
+alias ter='open -na kitty'
+
+# Recarga la configuración del shell Zsh sin reiniciar la terminal
+alias x='source ~/.zshrc'
+
+# Atajo rápido para ejecutar el comando 'source' (cargar configuraciones)
+alias s='source'
+
+# Imprime en pantalla las rutas del sistema almacenadas en la variable PATH
+alias ph='echo "$PATH"'
+
+# Muestra la ruta del directorio de trabajo actual
+alias pw='pwd'
+
+# Limpia el texto visible en la pantalla de la terminal
+alias cl='clear'
+
+# Cierra la sesión o la pestaña actual de la terminal
+alias ex='exit'
+
+# Inicia o se conecta a una sesión del multiplexor de terminales Tmux
+alias tm='tmux'
+
+# Apaga el sistema de forma inmediata solicitando permisos de superusuario
+alias xoff='sudo shutdown -h now'
+
+# ============================================================
+# DESARROLLO (Angular, Maven, Spring, Node, Python, Dotnet, NPM)
+# ============================================================
+
+# Inicia el servidor de desarrollo local para un proyecto de Angular
+alias ngs='ng serve'
+
+# Compila la aplicación de Angular para producción o distribución
+alias ngb='ng build'
+
+# Limpia, compila e instala el proyecto Java con Maven mostrando información detallada de depuración (-X)
+alias mvncli='mvn clean install -X'
+
+# Limpia y empaqueta el proyecto Java en un archivo JAR/WAR con Maven mostrando logs detallados (-X)
+alias mvnclp='mvn clean package -X'
+
+# Ejecuta directamente una aplicación Spring Boot usando el plugin de Maven
+alias mvnsp='mvn spring-boot:run'
+
+# Atajo rápido para ejecutar el entorno de ejecución de Node.js
+alias no='node'
+
+# Muestra la versión instalada de Node.js
+alias n3v='node -v'
+
+# Ejecuta el intérprete de Python 3
+alias p3='python3'
+
+# Ejecuta el gestor de paquetes de Python 3 (pip)
+alias pi3='pip3'
+
+# Muestra la versión instalada del gestor de paquetes pip3
+alias p3v='pip3 -V'
+
+# Ejecuta la herramienta de línea de comandos del SDK de .NET
+alias dt='dotnet'
+
+# Atajo rápido para el gestor de paquetes de Node.js (npm)
+alias np='npm'
+
+# Ejecuta Nodemon para reiniciar automáticamente la aplicación Node.js al detectar cambios en el código
+alias ndm='nodemon'
+
+# Empaqueta el proyecto Java con Maven (con depuración) y filtra únicamente las líneas que indiquen la causa de algún error
+alias m='mvn clean package -X | grep -iE "cause"'
+
+# ============================================================
+# GIT
+# ============================================================
+
+# Muestra el estado del directorio de trabajo y del área de preparación (archivos modificados, añadidos o sin seguimiento)
+alias gs='git status'
+
+# Lista los repositorios remotos vinculados junto con sus URLs de lectura y escritura
+alias grv='git remote -v'
+
+# Sube los cambios y commits locales a la rama correspondiente del repositorio remoto
+alias gp='git push'
+
+# Muestra la lista de ramas locales e indica en cuál te encuentras actualmente
+alias gb='git branch'
+
+# Clona un repositorio remoto en un nuevo directorio local
+alias gc='git clone'
+
+# Muestra únicamente el último commit del historial de forma resumida, visual y con referencias de ramas
+alias gl='git log -1 --oneline --graph --all --decorate'
+
+# Agrega el archivo comprimido 'todo_git.tar.gz', realiza un commit con un mensaje predefinido y sube los cambios al remoto en un solo paso
+alias gacup='git add ./todo_git.tar.gz && git commit -m "update tar" && git push'
+
+# ============================================================
+# DOCKER, VAGRANT, TERRAFORM
+# ============================================================
+
+# Atajo rápido para ejecutar la herramienta de contenedores Docker
+alias dk='docker'
+
+# Elimina todos los contenedores detenidos, redes no usadas, imágenes sin utilizar y cachés para liberar espacio en disco
+alias dksp='docker system prune -a'
+
+# Ejecuta el gestor de entornos virtuales y máquinas virtuales Vagrant
+alias vg='vagrant'
+
+# Ejecuta la herramienta de infraestructura como código (IaC) Terraform
+alias tf='terraform'
+# ============================================================
+# GLASSFISH
+# ============================================================
+
+# Inicia el dominio de GlassFish y abre la consola de administración principal en el navegador
+alias glaso='asadmin start-domain && open http://localhost:4848/common/index.jsf'
+
+# Inicia el dominio de GlassFish y abre directamente el panel de gestión de aplicaciones
+alias glason='asadmin start-domain && open http://localhost:4848/common/applications/applications.jsf'
+
+# Detiene el dominio de GlassFish e intenta cargar la URL de la consola de administración
+alias glasoff='asadmin stop-domain && open http://localhost:4848/common/index.jsf'
+
+# Muestra la versión actual instalada del servidor GlassFish
+alias glasver='asadmin version'
+
+# Reinicia el dominio activo de GlassFish
+alias glasres='asadmin restart-domain'
+
+# Muestra la lista de todos los dominios configurados en el servidor
+alias glasdomains='asadmin list-domains'
+
+# Lista todas las aplicaciones desplegadas en GlassFish
+alias glasapps='asadmin list-applications'
+
+# Despliega / remueve la aplicación 'referidosrrvv' del servidor GlassFish
+alias gund='asadmin undeploy referidosrrvv'
+
+# Atajo base para desplegar (deploy) un paquete o archivo WAR/EAR en el servidor
+alias gdep='asadmin deploy'
+
+# Abre en el navegador la vista de configuración general para la instancia de servidor ('server')
+alias iraglas='open "http://localhost:4848/common/appServer/serverInstGeneralPe.jsf?instanceName=server"'
+
+# Muestra y monitorea en tiempo real las últimas líneas del archivo de log del servidor (domain1)
+alias glaslog='tail -f /Users/carlosocando/Downloads/glassfish7/glassfish8/glassfish/domains/domain1/logs/server.log'
+
+# Directorios Glassfish
+
+# Abre el archivo de configuración principal (domain.xml) en VS Code
+alias glasconfig='code /Users/carlosocando/Downloads/glassfish7/glassfish8/glassfish/domains/domain1/config/domain.xml'
+
+# Navega directamente a la carpeta de configuración del dominio 'domain1'
+alias glasconfigcd='cd /Users/carlosocando/Downloads/glassfish7/glassfish8/glassfish/domains/domain1/config/'
+
+# Navega a la carpeta de librerías (lib) del dominio 'domain1'
+alias glaslib='cd /Users/carlosocando/Downloads/glassfish7/glassfish8/glassfish/domains/domain1/lib'
+
+# Navega al directorio de binarios y ejecutables (bin) de GlassFish
+alias glasbin='cd /Users/carlosocando/Downloads/glassfish7/glassfish8/glassfish/bin'
+
+# ============================================================
+# NAVEGACIÓN DE DIRECTORIOS
+# ============================================================
+
+# Navega al directorio personal del usuario ($HOME), muestra todo el contenido en formato detallado y confirma la ruta actual
+alias u='cd "$HOME" && ls -lah && pwd'
+
+# Navega al directorio raíz del sistema (/), lista su contenido detallado y confirma la ruta actual
+alias r='cd / && ls -lah && pwd'
+
+# Sube un nivel en el árbol de directorios, muestra los archivos detallados y confirma la ruta actual
+alias ..='cd .. && ls -lah && pwd'
+
+# Sube dos niveles en el árbol de directorios, muestra los archivos detallados y confirma la ruta actual
+alias ....='cd ../.. && ls -lah && pwd'
+
+# Sube tres niveles en el árbol de directorios, muestra los archivos detallados y confirma la ruta actual
+alias ......='cd ../../.. && ls -lah && pwd'
+
+# Regresa al directorio de trabajo anterior, muestra su contenido detallado y confirma la ruta actual
+alias .-='cd - && ls -lah && pwd'
+
+# Navega a la carpeta de archivos temporales (/tmp), muestra su contenido y confirma la ruta actual
+alias tmp='cd /tmp && ls -lah && pwd'
+
+# Navega al volumen externo 'tarjeta SD', lista sus archivos en detalle y confirma la ruta actual
+alias ssd='cd "/Volumes/tarjeta SD" && ls -lah && pwd'
+
+# Navega a la carpeta 'pre_' dentro de Documentos, muestra el contenido y confirma la ruta
+alias pre='cd "$HOME/Documents/pre_" && ls -lah && pwd'
+
+# Navega al directorio de desarrollo de Ionix, muestra los archivos detallados y confirma la ruta
+alias io='cd "$HOME/Documentos/ionix/Desarrollando" && ls -lah && pwd'
+
+# Navega al directorio global de scripts shell, muestra su contenido y confirma la ruta
+alias shell='cd /usr/local/shell2/shell2/linux/shell && ls -lah && pwd'
+
+# Navega al proyecto local de scripts shell de Ionix, lista el contenido y confirma la ruta
+alias shell2ls='cd /Users/carlosocando/Documentos/ionix/Desarrollando/linux/shell && ls -lah && pwd'
+
+# Navega al directorio del proyecto 'referidos_elias', muestra su contenido y confirma la ruta
+alias eli='cd /Users/carlosocando/Documentos/referidos_elias && ls -lah && pwd'
+
+# Navega a la carpeta 'jars' ubicada en el Escritorio
+alias jar='cd /Users/carlosocando/Desktop/jars'
+
+# Navega a la carpeta 'java' dentro de Descargas
+alias cdjava='cd ~/Downloads/java'
+
+# Navega a la carpeta de Descargas
+alias cddow='cd ~/Downloads/'
+
+# Navega al Escritorio del usuario usando la ruta absoluta
+alias ucd='cd /Users/carlosocando/Desktop'
+
+# Navega al Escritorio del usuario usando el atajo relativo (~/)
+alias cdd='cd ~/Desktop/'
+
+# Navega al directorio de configuración y repositorio local de Apache Maven (.m2)
+alias cdm2='cd ~/.m2'
+
+# ============================================================
+# EDITORES Y APLICACIONES
+# ============================================================
+
+# Atajo para ejecutar la aplicación Sublime Text
+alias sub='subl'
+
+# Abre la aplicación Sublime Text
+alias subl='open -a "Sublime Text"'
+
+# Abre la aplicación Visual Studio Code
+alias code="open -a 'Visual Studio Code'"
+
+# Abre el editor de código Cursor
+alias cursor='open -a Cursor.app'
+
+# Abre el navegador web Safari
+alias a='open -a Safari'
+
+# Abre el reproductor multimedia VLC
+alias v='open -a vlc'
+
+# Abre el navegador web Brave Browser
+alias b='open -a "Brave Browser"'
+
+# Abre el editor de Markdown Typora
+alias typ='open -a "typora"'
+
+# Abre Google Keep (cuenta secundaria/índice 1) en el navegador predeterminado
+alias keep='open https://keep.google.com/u/1/'
+
+# Comando genérico para abrir archivos, carpetas o URLs con la aplicación predeterminada
+alias o='open'
+
+# Accesos directos a archivos de config
+
+# Abre el archivo de configuración de Zsh (.zshrc) en Sublime Text
+alias xsubz='subl $HOME/.zshrc'
+
+# Abre el archivo de alias personalizados (.zxalias) en Sublime Text
+alias xsuba='subl $HOME/.zxalias'
+
+# Abre el archivo de funciones personalizadas (.zxfunction) en Sublime Text
+alias xsubf='subl $HOME/.zxfunction'
+
+# Abre el archivo de mapeo de hosts del sistema (/etc/hosts) en Sublime Text
+alias xsubh='subl /etc/hosts'
+
+# Abre el archivo de configuración de Zsh (.zshrc) en VS Code
+alias xcodz='code $HOME/.zshrc'
+
+# Abre el archivo de alias personalizados (.zxalias) en VS Code
+alias xcoda='code $HOME/.zxalias'
+
+# Abre el archivo de funciones personalizadas (.zxfunction) en VS Code
+alias xcodf='code $HOME/.zxfunction'
+
+# Abre el archivo de hosts del sistema (/etc/hosts) en VS Code
+alias xcodh='code /etc/hosts'
+
+# Abre el archivo de configuración de Zsh (.zshrc) en el editor de terminal Vim
+alias xviz='vim $HOME/.zshrc'
+
+# Abre el archivo de alias (.zxalias) en el editor Vim
+alias xvia='vim $HOME/.zxalias'
+
+# Abre el archivo de funciones (.zxfunction) en el editor Vim
+alias xvif='vim $HOME/.zxfunction'
+
+# Abre el archivo de hosts del sistema (/etc/hosts) en el editor Vim
+alias xvih='vim /etc/hosts'
+
+# Abre el script de sincronización/backup de Linux Shell en VS Code
+alias xcod_x='code /Users/carlosocando/Documentos/ionix/Desarrollando/linux/shell/_xuplinuxshell.sh'
+
+# Abre el script de sincronización/backup de Linux Shell en el editor Vim
+alias xviup='vim /Users/carlosocando/Documentos/ionix/Desarrollando/linux/shell/_xuplinuxshell.sh'
+
+# Preferencias del sistema
+
+# Abre el panel de configuración del Teclado en Ajustes del Sistema de macOS
+alias teclado='open "x-apple.systempreferences:com.apple.Keyboard-Settings.extension"'
+
+# Abre el panel de reemplazo de texto / configuración del teclado en macOS
+alias sustituto='open "x-apple.systempreferences:com.apple.Keyboard-Settings.extension"'
+
+# Abre el panel de configuración de Notificaciones en Ajustes del Sistema de macOS
+alias notifica='open "x-apple.systempreferences:com.apple.Notifications-Settings.extension"'
+
+# Abre el gestor de Contraseñas guardadas en Ajustes del Sistema de macOS
+alias pass='open "x-apple.systempreferences:com.apple.Passwords-Settings.extension"'
+
+# Web Apps
+
+# Abre la plataforma GitHub directamente en Brave Browser
+alias xiragit='open -a "Brave Browser" https://github.com'
+
+# Abre Google Drive directamente en Brave Browser
+alias xiradrive='open -a "Brave Browser" https://drive.google.com'
+
+# ============================================================
+# UTILIDADES Y SISTEMA
+# ============================================================
+
+# Cambia los atributos de un archivo o carpeta en macOS para que deje de estar oculto
+alias visible='chflags nohidden'
+
+# Copia la entrada estándar directamente al portapapeles de macOS (Clipboard)
+alias pb='pbcopy'
+
+# Muestra el historial completo de comandos ejecutados en la terminal
+alias xchis='history'
+
+# Lista todos los archivos y carpetas (incluidos ocultos) en formato detallado y legible
+alias ll='ls -lah'
+
+# Lista únicamente los directorios (carpetas) del directorio actual en formato detallado
+alias ld='ls -lah | grep "^d"'
+
+# Abre el monitor de procesos interactivo htop
+alias htop_sys='htop'
+
+# Formateadores
+
+# Verifica la sintaxis de un script Bash en busca de errores sin llegar a ejecutarlo
+alias sintax='bash -n'
+
+# Da formato automáticamente a un archivo HTML y guarda los cambios usando Prettier
+alias formathtml='prettier --write'
+
+# Formatea y aplica sangría a un script de Shell mediante shfmt guardando el archivo
+alias xformat='shfmt -w'
+
+# Busca y da formato a todos los archivos con extensión .sh en el directorio actual y sus subdirectorios
+alias xformatall='find . -name "*.sh" -exec shfmt -w {} \;'
+
+# Busca y da formato a todos los archivos ejecutables dentro del directorio actual y sus subdirectorios
+alias xformatsx='find . -type f -perm -111 -exec shfmt -w {} \;'
+
+# Búsquedas / Grep
+
+# Realiza una búsqueda de texto filtrado (grep) ignorando mayúsculas y minúsculas
+alias g='grep -i'
+
+# Filtra la entrada buscando únicamente las líneas que contengan la palabra "cause" (insensible a mayúsculas)
+alias g1='grep -iE "cause"'
+
+# Filtra la entrada buscando palabras clave comunes de error/fallo (cause, exception, failure, error, package)
+alias g4='grep -iE "cause|exception|failure|error|package"'
+
+# Red y Fecha
+
+# Envía 3 paquetes ICMP (ping) a Google Chile para verificar conectividad a internet
+alias ti='ping -c3 www.google.cl'
+# Muestra la hora actual en formato de 12 horas (ej. 08:30:15 PM)
+alias h12='date +"%I:%M:%S %p"'
+
+# Atajo alternativo para generar texto con arte ASCII mediante Figlet
+alias xban='figlet'
+
+# Muestra la fecha y hora actual en un formato largo en español de 12 horas
+alias d12='date "+%A, %d de %B de %Y a las %I:%M %p"'
+
+# Graba video directamente desde la primera cámara de la Mac (dispositivo 0) a 30 FPS usando FFmpeg
+# alias gg='ffmpeg -f avfoundation -i ":0" /tmp/salida.mp3'
+
+# Atajo 'jdw': Abre la aplicación gráfica JDownloader 2 en macOS
+alias jdw='open "/Applications/JDownloader2.app"'
+
+# Atajo 'jyt': Ejecuta el descargador por línea de comandos yt-dlp
+alias ytd='yt-dlp -S "res,ext:mp4:m4a" --recode mp4'
+
+alias hhoy='up_$(date)dd|pb'
+
+alias grv='git remote -v'
+
+alias gup='git pull'
