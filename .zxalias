@@ -425,3 +425,5 @@ alias hhoy='up_$(date)dd|pb'
 alias grv='git remote -v'
 
 alias gup='git pull'
+
+alias gup2='git pull'
