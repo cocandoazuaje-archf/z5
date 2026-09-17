@@ -427,3 +427,5 @@ alias grv='git remote -v'
 alias gup='git pull'
  
 alias ex='exit'
+
+alias ec='echo'
