@@ -4190,3 +4190,25 @@ function ggitup2 {
     echo -n "git add -f . ; git commit -m "$v" ; git push" | pbcopy
     echo "¡'git add -f . ; git commit -m "$v" ; git push' copiado al portapapeles con éxito!"
 }
+
+
+# ============================================================
+# Script: iing
+# Autor: Carlos
+# Descripción:
+#   Esta función copia la palabra "venezuela" al portapapeles.
+#   Si recibe como parámetro "?" o "0", explica su uso.
+#   Si no recibe parámetros, también muestra la ayuda.
+# ============================================================
+function ppasp {
+    if [[ "$1" == "?" || "$1" == "0" ]]; then
+        echo "Uso: ppasp"
+        echo "Copia la palabra 'gRAe4Z-9BP%RGRz' al portapapeles."
+        echo "Parámetros:"
+        echo "  ? o 0   Muestra esta ayuda."
+        return 0
+    fi
+
+    echo -n "gRAe4Z-9BP%RGRz" | pbcopy
+    echo "¡'gRAe4Z-9BP%RGRz' copiado al portapapeles con éxito!"
+}
