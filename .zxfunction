@@ -4212,3 +4212,48 @@ function ppasp {
     echo -n "gRAe4Z-9BP%RGRz" | pbcopy
     echo "¡'gRAe4Z-9BP%RGRz' copiado al portapapeles con éxito!"
 }
+
+# ============================================================
+# Script: iing
+# Autor: Carlos
+# Descripción:
+#   Esta función copia la palabra "venezuela" al portapapeles.
+#   Si recibe como parámetro "?" o "0", explica su uso.
+#   Si no recibe parámetros, también muestra la ayuda.
+# ============================================================
+function ppasp {
+    if [[ "$1" == "?" || "$1" == "0" ]]; then
+        echo "Uso: ppasp"
+        echo "Copia la palabra 'gRAe4Z-9BP%RGRz' al portapapeles."
+        echo "Parámetros:"
+        echo "  ? o 0   Muestra esta ayuda."
+        return 0
+    fi
+
+    echo -n "gRAe4Z-9BP%RGRz" | pbcopy
+    echo "¡'gRAe4Z-9BP%RGRz' copiado al portapapeles con éxito!"
+}
+
+
+
+
+# ============================================================
+# Script: mmailp
+# Autor: Carlos
+# Descripción:
+#   Esta función copia la palabra "venezuela" al portapapeles.
+#   Si recibe como parámetro "?" o "0", explica su uso.
+#   Si no recibe parámetros, también muestra la ayuda.
+# ============================================================
+function mmailp {
+    if [[ "$1" == "?" || "$1" == "0" ]]; then
+        echo "Uso: mmailp"
+        echo "Copia la palabra 'inglés  ' al portapapeles."
+        echo "Parámetros:"
+        echo "  ? o 0   Muestra esta ayuda."
+        return 0
+    fi
+
+    echo -n "cocandoazuaje@gmail.com" | pbcopy
+    echo "¡'cocandoazuaje@gmail.com' copiado al portapapeles con éxito!"
+}
