@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>phrase</key>
+		<string>"HASME 20 PERGUNTAS DE SELECCION SIMPLE Y DESPUES DE CADA RESPUESTA DIME SI E S CORRECTA O NO , AL FINAL DEBE PERSENTARME EN RESUMEN O SCORE: TEMA: ____ , segun la nota obtenida cuanto equivaldría a la nota del 1 al 7, Enumérame las posibles respuestas" el resultado tiene que ser una pagina html
+"HASME 20 PERGUNTAS DE SELECCION SIMPLE Y DESPUES DE CADA RESPUESTA DIME SI E S CORRECTA O NO , AL FINAL DEBE PERSENTARME EN RESUMEN O SCORE: TEMA: ____ , segun la nota obtenida cuanto equivaldría a la nota del 1 al 7, Enumérame las posibles respuestas" el resultado tiene que ser una pagina html
+"HASME 20 PERGUNTAS DE SELECCION SIMPLE Y DESPUES DE CADA RESPUESTA DIME SI E S CORRECTA O NO , AL FINAL DEBE PERSENTARME EN RESUMEN O SCORE: TEMA: ____ , segun la nota obtenida cuanto equivaldría a la nota del 1 al 7, Enumérame las posibles respuestas" el resultado tiene que ser una pagina html</string>
+		<key>shortcut</key>
+		<string>_20ss</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>2000 usd / mes</string>
+		<key>shortcut</key>
+		<string>_22$</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>2000000 clp / mes</string>
+		<key>shortcut</key>
+		<string>_22c</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>jja</string>
+		<key>shortcut</key>
+		<string>(java-avascript-SpringBoot)</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>  #!/bin/bash</string>
+		<key>shortcut</key>
+		<string>##</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>&gt; /tmp/log.lis ; subcode /tmp/log.lis</string>
+		<key>shortcut</key>
+		<string>&gt;&gt;</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>hho</string>
+		<key>shortcut</key>
+		<string>~/</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>rre</string>
+		<key>shortcut</key>
+		<string>2500.000</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Angular y AngularJs</string>
+		<key>shortcut</key>
+		<string>aaj</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Angular</string>
+		<key>shortcut</key>
+		<string>aan</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>@</string>
+		<key>shortcut</key>
+		<string>aar</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>arch linux</string>
+		<key>shortcut</key>
+		<string>aar</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>arm</string>
+		<key>shortcut</key>
+		<string>aar2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>arch linux</string>
+		<key>shortcut</key>
+		<string>aarh</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Armame esto con este artefacto  : ________</string>
+		<key>shortcut</key>
+		<string>aarm</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>AWS(EC2, S3, Cognito, IAM, DynamoDB, RDS),</string>
+		<key>shortcut</key>
+		<string>aaw</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>azus</string>
+		<key>shortcut</key>
+		<string>aaz</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Azuaje</string>
+		<key>shortcut</key>
+		<string>aazu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>azure-aws</string>
+		<key>shortcut</key>
+		<string>azu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Oracle, MySql, Postgres, AWS Dynamo, MariaDB, AWS RDS</string>
+		<key>shortcut</key>
+		<string>bba</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>\</string>
+		<key>shortcut</key>
+		<string>bbi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Bitbuket</string>
+		<key>shortcut</key>
+		<string>bbit</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Brave</string>
+		<key>shortcut</key>
+		<string>bbr</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hola  ___  buenos dias espero que estes bien, ante todo mis saludos, </string>
+		<key>shortcut</key>
+		<string>bbu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos</string>
+		<key>shortcut</key>
+		<string>cca</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>carlos.ocando</string>
+		<key>shortcut</key>
+		<string>cca.o</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos Eduardo</string>
+		<key>shortcut</key>
+		<string>ccae</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos Eduardo Ocando Azuaje</string>
+		<key>shortcut</key>
+		<string>ccaeoa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos ocando</string>
+		<key>shortcut</key>
+		<string>ccao</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos Ocando Azuaje</string>
+		<key>shortcut</key>
+		<string>ccaoa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>
+Estimados encargados :
+
+
+
+Me dirijo a ustedes con interés en la posición de Ingeniero de Sistemas con experiencia en Linux publicada recientemente. Como profesional titulado con más de 10 años de experiencia en administración de sistemas, considero que mi perfil se ajusta a las necesidades del cargo.
+
+
+
+Durante mi trayectoria, he trabajado con sistemas basados en Windows y Linux, particularmente en Ubuntu, Fedora, Open SUSE, Arch Linux, Debian, Linux Mint, así como también en diversas app de IA como : ChatGPT Geminis, Copilot, Leo, Excel Avanzado con IA, asegurando el mantenimiento y la actualización de entornos críticos. También cuento con conocimientos en Python, Java y JavaScript así como experiencia en servidores web, Nginx y en la gestión de bases de datos SQL Server, MariaDB, MySQL y PostgreSQL. Mi capacidad para documentar sistemas y coordinar mantenimiento con terceros ha sido clave para optimizar los recursos tecnológicos de las
+
+organizaciones en las que he colaborado.
+
+
+
+Me motiva la posibilidad de formar parte de esta empresa, donde pueda aplicar mis conocimientos y contribuir al buen funcionamiento de sus sistemas tecnológicos. Sería un honor poder discutir en mayor detalle cómo mi experiencia y habilidades pueden aportar al equipo.
+
+Quedo atento a su respuesta y agradezco la oportunidad de postular a este desafío.
+
+
+
+Atentamente,
+
+
+
+Carlos Ocando
+
+26675657-7
+
++56 9 68002846
+
+cocandoazuaje@gmail.com</string>
+		<key>shortcut</key>
+		<string>ccap</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>
+Estimados encargados :
+
+
+
+Me dirijo a ustedes con interés en la posición de Ingeniero de Sistemas con experiencia en Linux publicada recientemente. Como profesional titulado con más de 10 años de experiencia en administración de sistemas, considero que mi perfil se ajusta a las necesidades del cargo.
+
+
+
+Durante mi trayectoria, he trabajado con sistemas basados en Windows y Linux, particularmente en Ubuntu, Fedora, Open SUSE, Arch Linux, Debian, Linux Mint, así como también en diversas app de IA como : ChatGPT Geminis, Copilot, Leo, Excel Avanzado con IA, asegurando el mantenimiento y la actualización de entornos críticos. También cuento con conocimientos en Python, Java y JavaScript así como experiencia en servidores web, Nginx y en la gestión de bases de datos SQL Server, MariaDB, MySQL y PostgreSQL. Mi capacidad para documentar sistemas y coordinar mantenimiento con terceros ha sido clave para optimizar los recursos tecnológicos de las
+
+organizaciones en las que he colaborado.
+
+
+
+Me motiva la posibilidad de formar parte de esta empresa, donde pueda aplicar mis conocimientos y contribuir al buen funcionamiento de sus sistemas tecnológicos. Sería un honor poder discutir en mayor detalle cómo mi experiencia y habilidades pueden aportar al equipo.
+
+Quedo atento a su respuesta y agradezco la oportunidad de postular a este desafío.
+
+
+
+Atentamente,
+
+
+
+Carlos Ocando
+
+26675657-7
+
++56 9 68002846
+
+carloseocando@gmail.com</string>
+		<key>shortcut</key>
+		<string>ccap</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>• Claude IA • AngularJS • Java • JUnit • Spring Boot • SQL • Docker • Terraform • Groovy • Bash • Git • CI/CD • AWS (EC2,S3,IAM,RDS) • Linux • macOS • Vagrant • VirtualBox • VMware • PowerShell • Tomcat, Power BI</string>
+		<key>shortcut</key>
+		<string>ccarg</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>"Como Consultor Senior - Software FullStack en Sermaluc, colaboro en soluciones tecnológicas avanzadas utilizando herramientas como Spring Boot, Angular y servidores GlassFish y Tomcat. Mi enfoque está en el desarrollo de software que optimice procesos y genere resultados efectivos para nuestros clientes.  "
+Cuento con más de 10 años de experiencia en desarrollo FullStack, con habilidades en PowerShell, MySQL y ChatGPT, además de certificaciones en Azure DevOps y otras herramientas,  Mi objetivo es contribuir al éxito de proyectos tecnológicos mediante la integración de soluciones innovadoras y eficientes. “
+
+
+Cuento con más de 10 años de experiencia en desarrollo FullStack, con habilidades en PowerShell, MySQL y ChatGPT, además de certificaciones en Azure DevOps y otras herramientas,  Mi objetivo es contribuir al éxito de proyectos tecnológicos mediante la integración de soluciones innovadoras y eficientes.</string>
+		<key>shortcut</key>
+		<string>ccart</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>* linux diploma-terminal
+* Bash
+* Powershell * Fundamentos en DevOps y Arquitectura de Microservicios
+* CertificadoDeFinalizacion_Administracion de servidores Linux esencial
+* Microservicios con Spring Boot y Spring Cloud Netflix Eurek* a
+* Fundamentos de Angular - Carlos Ocando
+* CertificadoDeFinalizacion_Seguridad informatica Informatica forense
+* CertificadoDeFinalizacion_Fundamentos de la ciberseguridad
+* CertificadoDeFinalizacion_Aprende Firebase
+* CertificadoDeFinalizacion_Java Servicios web
+* CertificadoDeFinalizacion_Python
+* CertificadoDeFinalizacion_Node.js
+* CertificadoDeFinalizacion_Ionic esencial
+* AWS
+* CertificadoDeFinalizacion_JavaScript avanzado Buenas practicas
+* CertificadoDeFinalizacion_JavaScript esencial
+* CertificadoDeFinalizacion_Azure Maquinas virtuales
+* CertificadoDeFinalizacion_Azure para desarrollo y programacion
+* CertificadoDeFinalizacion_Aprende Azure
+* CertificadoDeFinalizacion_Amazon Web Services para profesionales IT
+* CertificadoDeFinalizacion_Kotlin esencial
+* CertificadoDeFinalizacion_macOS Sierra esencial
+* CertificadoDeFinalizacion_Aprende Power BI
+* CertificadoDeFinalizacion_Azure Functions esencial
+* CertificadoDeFinalizacion_.NET Core esencial
+* CertificadoDeFinalizacion_.NET Core esencial
+* diploma-c-sharp
+* diploma-fundamentos-csharp-2018
+* CertificadoDeFinalizacion_Aprende C
+* CertificadoDeFinalizacion_Azure DevOps y VSTS esencial
+* diploma-curso-php-laravel
+* diploma-php-2017</string>
+		<key>shortcut</key>
+		<string>cce</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos Eduardo Ocando Azuaje</string>
+		<key>shortcut</key>
+		<string>cceoa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>ChatGpt Atlas</string>
+		<key>shortcut</key>
+		<string>ccga</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>`</string>
+		<key>shortcut</key>
+		<string>cci</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>alias ciclos=sh 
+system_profiler SPPowerDataType |grep -i 'Cycle Count'
+			</string>
+		<key>shortcut</key>
+		<string>ccic</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>A1b2c3d4e5f6g7h8i9j0</string>
+		<key>shortcut</key>
+		<string>ccla1</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>A2b3c4d5e6f7g8h9i0j1</string>
+		<key>shortcut</key>
+		<string>ccla2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>clave reinimar Re0808$ri</string>
+		<key>shortcut</key>
+		<string>cclar</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos Ocando</string>
+		<key>shortcut</key>
+		<string>cco</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>`</string>
+		<key>shortcut</key>
+		<string>ccoi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>comentame todas las lineas que contengan la palabra </string>
+		<key>shortcut</key>
+		<string>ccom</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hola hermana, Como  durmio y amanecio  papi</string>
+		<key>shortcut</key>
+		<string>ccomo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>(• Claude code • Angular • AngularJS • Java • JUnit • Spring Boot • SQL • Docker • Terraform • Groovy • Bash • Git • CI/CD • AWS (EC2,S3,IAM,RDS) • Linux • macOS • Vagrant • VirtualBox • VMware • PowerShell • Tomcat)</string>
+		<key>shortcut</key>
+		<string>ccompe</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>8320000</string>
+		<key>shortcut</key>
+		<string>ccop</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>corrigelo</string>
+		<key>shortcut</key>
+		<string>ccor</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Crea una función llamada  : ___ que haga ___ y que reciba ___ o 0 como parámetros.
+Si no recibe parámetros, debe explicar cómo se usa, Debes usar functionaw  y no (), agregar título y comentarios, La salida de errores debe redirigirse a /dev/null, Al finalizar, debe enviar la salida sin errores a un archivo ubicado en /tmp/nombre de la funcion.txt,  luego debe abrir dicho archivo con la aplicación code. </string>
+		<key>shortcut</key>
+		<string>ccrea</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos Eduardo Ocando Azuaje
+26675657-7
++56 9 68002846
+cocandoazuaje@gmail.com
+Disponilidad : inmediata
+Dir: Santiago Centro</string>
+		<key>shortcut</key>
+		<string>ccu7r</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carlos Eduardo Ocando Azuaje
+26675657-7
++56 9 68002846
+carloseocando@gmail.com
+Disponilidad : inmediata</string>
+		<key>shortcut</key>
+		<string>ccu7r2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Re0808$ri</string>
+		<key>shortcut</key>
+		<string>ccuni</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>_ Fundamentos en DevOps y Arquitectura de Microservicios.pdf
+_ Microservicios con Spring Boot y Spring Cloud Netflix Eureka
+_ Carlos Ocando.pdf
+_ Seguridad informatica Informatica forense.pdf
+_ Fundamentos de la ciberseguridad.pdf
+_ Aprende Firebase.pdf
+_ Administración de servidores Linux esencial.pdf
+_ Java Servicios web.pdf
+_ Python</string>
+		<key>shortcut</key>
+		<string>ccur1</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string> Node.js
+_ Ionic esencial.pdf
+_ AWS
+_ JavaScript avanzado Buenas practicas.pdf
+_ JavaScript esencial.pdf
+_ Azure Maquinas virtuales.pdf
+_ Azure para desarrollo y programacion.pdf
+_ Aprende Azure.pdf
+_ Amazon Web Services para profesionales IT.pdf
+_ Kotlin esencial.pdf
+_ macOS Sierra esencial.pdf
+_ Aprende Power BI.pdf
+_ Azure Functions esencial.pdf
+_ .NET Core esencial.pdf
+_ .NET Core esencial.pdf
+_ diploma-c-sharp.pdf
+_ diploma-fundamentos-csharp-2018.pdf
+_ Aprende C.pdf</string>
+		<key>shortcut</key>
+		<string>ccur2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string> diploma-curso-php-laravel.pdf
+_ diploma-php-2017.pdf
+_ linux diploma-terminal.pd</string>
+		<key>shortcut</key>
+		<string>ccur3</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>	 ITC Services (2017-2019): AngularJS.
+	•	Akzio (2019-2020): Angular.
+	•	Trebol-IT (2020-2021): Angular.
+	•	Axity (2021-2022): AWS (EC2, S3), Angular e Ionic.
+	•	Sermaluc (2022-2025): Angular.</string>
+		<key>shortcut</key>
+		<string>ccura</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>➡️  Años de experiencia con Spring Boot: aproximadamente 3 años.
+    Años de experiencia con Java: aproximadamente 7 años.
+    Aproximadamente 4 años de experiencia con Angular </string>
+		<key>shortcut</key>
+		<string>ccure</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Tecnologias trabajadas:
+
+• Editor Cursor con IA • Geminis IA • Copilot IA • ChatGPT IA • DeepSeek IA • Excel Avanzado con IA • Firebase • Flutter • Terraform • Ansible • Vagrant • Serverless • AWS Amazon • Amazon DynamoDB • Azure Function • Azure Pipeline • Docker • Angular • Ionic • Power BI Api’s • AngularJs • NodeJS • Php • Laravel • Html • Css • Jquery • JavaScript • TypeScript • Java SE • Java EE • Kotlin • SpringBoot • Porlet Liferay • Groove &amp; Grails • C# • NetCore • IIS • WSO2 • Nginx • VuJs • Glassfish • SQL • MySql • PostgreSql • Informix 4GL • Informix Dynamic Server • MS Access • MS SQL Server • Clipper • Dbase • Fox • Gupta SQL • Visual BASIC • Visual FoxPro (6,7,9) • Linux • Unix • UnixSCO • Windows x • Windows 200x Server • Windows NT • PC MS DOS • FTP Servers • Tomcat • Application Server Glassfish • SAP ERP Básico</string>
+		<key>shortcut</key>
+		<string>ccurh</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Pretensiones de Renta: cualquier cifra entre 2200.000 y 2500.000  lilquido me sirve!!</string>
+		<key>shortcut</key>
+		<string>ccurrr</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Editor Cursor con IA • Geminis IA • Copilot IA • ChatGPT IA • DeepSeek IA • Excel Avanzado con IA * Sermaluc – Consultor Senior - Software FullStack (2 años y 5 meses, Oct 2022 - Mar 2025)
+	•	Axity – AWS(EC2, S3, Cognito, IAM, DynamoDB), Consultor de Tecnología Senior (10 meses, Dic 2021 - Oct 2022)
+	•	Trebol-IT – Líder IT, Líder Azure DevOps (1 año y 9 meses, Mar 2020 - Dic 2021)
+	•	Akzio – Ingeniero en Software (1 año, Mar 2019 - Feb 2020)
+	•	ITC Services – Desarrollador Senior (2 años y 2 meses, Ene 2017 - Mar 2019)</string>
+		<key>shortcut</key>
+		<string>ccurrrrr</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Chromiun</string>
+		<key>shortcut</key>
+		<string>cch</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Chile</string>
+		<key>shortcut</key>
+		<string>cchi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>carloseduardoocandoazuaje@gmail.com</string>
+		<key>shortcut</key>
+		<string>ceoa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>carlosocando</string>
+		<key>shortcut</key>
+		<string>coo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Trebol_IT_Líder_IT_Líder_Azure_DevOps_(1_año_y_9_meses_Mar_2020_Dic_2021)</string>
+		<key>shortcut</key>
+		<string>dd</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>20-01-2026</string>
+		<key>shortcut</key>
+		<string>dda</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Desarrollo</string>
+		<key>shortcut</key>
+		<string>dde</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Delcy Rodriguez</string>
+		<key>shortcut</key>
+		<string>ddel</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Desempleado</string>
+		<key>shortcut</key>
+		<string>ddes</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>df -h /dev/disk3s3s1</string>
+		<key>shortcut</key>
+		<string>ddf</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>AV. SANTA ROSA EDIF: 634, DPTO 903, Santiago de Chile</string>
+		<key>shortcut</key>
+		<string>ddir</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>dde</string>
+		<key>shortcut</key>
+		<string>Desempleado</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Eduardo</string>
+		<key>shortcut</key>
+		<string>eed</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Elca4680</string>
+		<key>shortcut</key>
+		<string>eelca46</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>03 SEPT 2022</string>
+		<key>shortcut</key>
+		<string>eemi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>ñ</string>
+		<key>shortcut</key>
+		<string>eene</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ñ</string>
+		<key>shortcut</key>
+		<string>eenem</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Español</string>
+		<key>shortcut</key>
+		<string>eesp</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>* Sermaluc (2022-2025): Angular.
+* Axity (2021-2022): Spring Boot - Angular
+* AWS (EC2, S3), Angular e Ionic.
+* Trebol-IT (2020-2021): Angular.
+* Akzio (2019-2020): Angular.
+* ITC Services (2017-2019): AngularJS.</string>
+		<key>shortcut</key>
+		<string>eexp</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>* Sermaluc (2022-2025): Angular.
+* Axity (2021-2022): Spring Boot - Angular
+* AWS (EC2, S3), Angular e Ionic.
+* Trebol-IT (2020-2021): Angular.
+* Akzio (2019-2020): Angular.
+* ITC Services (2017-2019): AngularJS.
+
+Desarrolle un Dashboard Interactivo con Java Web y AngularJS</string>
+		<key>shortcut</key>
+		<string>eexp2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Explicamelo</string>
+		<key>shortcut</key>
+		<string>eexpl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>27 JUL 2027</string>
+		<key>shortcut</key>
+		<string>even</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>find . | grep \.____</string>
+		<key>shortcut</key>
+		<string>ff</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Facebook</string>
+		<key>shortcut</key>
+		<string>ffa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>fedora</string>
+		<key>shortcut</key>
+		<string>ffe</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>13 OCT 1971</string>
+		<key>shortcut</key>
+		<string>ffen</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>clear ; echo "*** buscando ... \n" ; sudo find /  -type f -iname "___" 2&gt;/dev/null &gt; /tmp/ffin.log ; subl /tmp/ffin.log</string>
+		<key>shortcut</key>
+		<string>ffin</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>echo "**** Buscado ..." ; find / -type d -iname "*___*" 2&gt;/dev/null &gt; /tmp/ffind.log ; subl /tmp/ffind.log</string>
+		<key>shortcut</key>
+		<string>ffind</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>AngularJs,Java,JUnit_Spring_Boot,Azure_Pipeline,Vagrant,Docker,SQL,Linux,JenkinsAngularJs,Java,JUnit,Spring_Boot,Azure,Pipeline,Vagrant,Docker,SQL,Linux,Jenkins</string>
+		<key>shortcut</key>
+		<string>ffo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>FullStack y Devops</string>
+		<key>shortcut</key>
+		<string>ffs</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>hola gigia cuando puedas le comemtas a puchi q se asome al telegram</string>
+		<key>shortcut</key>
+		<string>ggi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>git add -f . ; git commit -m "commit inicial" ; git push</string>
+		<key>shortcut</key>
+		<string>ggit</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>https://github.com/cocandoazuaje-archf</string>
+		<key>shortcut</key>
+		<string>ggith</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>git rev-parse --show-toplevel</string>
+		<key>shortcut</key>
+		<string>ggitp</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>git add -f . ; git commit -m "actualización" ; git push</string>
+		<key>shortcut</key>
+		<string>ggitu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Gmail</string>
+		<key>shortcut</key>
+		<string>ggm</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Google</string>
+		<key>shortcut</key>
+		<string>ggo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>grep -Rn "___" . 2&gt;/dev/null &gt; /tmp/xgrep.txt &amp;&amp; subl  /tmp/xgrep.txt</string>
+		<key>shortcut</key>
+		<string>ggrep</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>$HOME</string>
+		<key>shortcut</key>
+		<string>hh</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hasme una funcion  que haga  : __________ y si no recibe parametro explica</string>
+		<key>shortcut</key>
+		<string>hhas</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Azure Pipelines (CI/CD), Azure Repos, Git, Vagrant, Jenkins, Terraform, AWS (EC2, S3, Grupos de Seguridad, IAM, AMI, RDS), , Bash, PowerShell, VirtualBox, VMware, Docker, Java, Spring Boot, Postman, MySQL, PostgreSQL, Nginx</string>
+		<key>shortcut</key>
+		<string>hher</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hibrido</string>
+		<key>shortcut</key>
+		<string>hhi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hibrido y/o presencial</string>
+		<key>shortcut</key>
+		<string>hhipre</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hibrido/Remoto</string>
+		<key>shortcut</key>
+		<string>hhir</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>~/</string>
+		<key>shortcut</key>
+		<string>hho</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hola ____ gusto en saludarte te dejo mis datos por si te interesa y si me ajusto al perfil:</string>
+		<key>shortcut</key>
+		<string>hhol</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>$HOME</string>
+		<key>shortcut</key>
+		<string>hhom</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+			</string>
+		<key>shortcut</key>
+		<string>hhom</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>hospital centralo de maracaibo</string>
+		<key>shortcut</key>
+		<string>hhos</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hospital Universitario de Maracaibo</string>
+		<key>shortcut</key>
+		<string>hhosu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hotmail</string>
+		<key>shortcut</key>
+		<string>hhot</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>echo "up_$(date)"|pb</string>
+		<key>shortcut</key>
+		<string>hhoy</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>~/.profile</string>
+		<key>shortcut</key>
+		<string>hhp</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>~/.zshrc</string>
+		<key>shortcut</key>
+		<string>hhz</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Copilot , ChatGpt, Leo, Geminis, NotebookLM, Perplexity, Llama, Cloud Code y DeepSeek</string>
+		<key>shortcut</key>
+		<string>iia</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>inmediata</string>
+		<key>shortcut</key>
+		<string>iin</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Universidad Rafael Belloso Chacín, Maracaibo, Venezuela | Ingeniero en Computación | Titulado profesionalmente</string>
+		<key>shortcut</key>
+		<string>iing</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ingeniero en Computacion</string>
+		<key>shortcut</key>
+		<string>iingc</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>cd /Users/carlosocando/Downloads/grails/ingepanelapp/</string>
+		<key>shortcut</key>
+		<string>iinge</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string> Ingeniero en Computación</string>
+		<key>shortcut</key>
+		<string>iingec</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>ingles</string>
+		<key>shortcut</key>
+		<string>iingl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Instagram</string>
+		<key>shortcut</key>
+		<string>iins</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Intel</string>
+		<key>shortcut</key>
+		<string>iint</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>JavaScript</string>
+		<key>shortcut</key>
+		<string>jja</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>java</string>
+		<key>shortcut</key>
+		<string>jjaa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>java</string>
+		<key>shortcut</key>
+		<string>jjav</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Java 6, 7, 8,  9, 11 y 24</string>
+		<key>shortcut</key>
+		<string>jjax</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>jenkins-aws</string>
+		<key>shortcut</key>
+		<string>jje</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Java y SpringBoot</string>
+		<key>shortcut</key>
+		<string>jjs</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>lenovo</string>
+		<key>shortcut</key>
+		<string>lle</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>localhost:4200</string>
+		<key>shortcut</key>
+		<string>llh</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>https://www.linkedin.com/in/ing-carlos-eduardo-ocando-azuaje-12629a6b/</string>
+		<key>shortcut</key>
+		<string>lli</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>linux</string>
+		<key>shortcut</key>
+		<string>llin</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>https://www.linkedin.com/in/ing-carlos-eduardo-ocando-azuaje-12629a6b/</string>
+		<key>shortcut</key>
+		<string>llink</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Linux (Debian, Ubuntu, Kubuntu, Xubuntu, Lubuntu, Linux Mint, Kali Linux, Arch Linux, Fedora)</string>
+		<key>shortcut</key>
+		<string>llinux</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ubuntu, Fedora, OpenSUSE, Arch,Debian, Manjaro</string>
+		<key>shortcut</key>
+		<string>llx2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>  Metropolitana de Santiago</string>
+		<key>shortcut</key>
+		<string>mm</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>MacBook Pro</string>
+		<key>shortcut</key>
+		<string>mma</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Re0808ri5678$</string>
+		<key>shortcut</key>
+		<string>mmae</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Re0808ri5678$</string>
+		<key>shortcut</key>
+		<string>mmae0</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>cocandoazuaje@gmail.com</string>
+		<key>shortcut</key>
+		<string>mmail</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>carloseocando@gmail.com</string>
+		<key>shortcut</key>
+		<string>mmail</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>4830 3100 3997 3558
+03/33 075</string>
+		<key>shortcut</key>
+		<string>mmaile</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>carloseocando@gmail.com</string>
+		<key>shortcut</key>
+		<string>mmaile2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>eliaszuniga.extpartner@consorcio.cl</string>
+		<key>shortcut</key>
+		<string>mmaileli</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>carlos_e_ocando@outlook.com</string>
+		<key>shortcut</key>
+		<string>mmailo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Carloseocandop@gmail.com</string>
+		<key>shortcut</key>
+		<string>mmailp</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>carlosocando.extpartner@consorcio.cl</string>
+		<key>shortcut</key>
+		<string>mmailx</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>&gt;</string>
+		<key>shortcut</key>
+		<string>mmay</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>075</string>
+		<key>shortcut</key>
+		<string>mmc</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Mejoralo  "__” </string>
+		<key>shortcut</key>
+		<string>mme</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>&lt;</string>
+		<key>shortcut</key>
+		<string>mmen</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>4830310039973558</string>
+		<key>shortcut</key>
+		<string>mmn</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Mac Os</string>
+		<key>shortcut</key>
+		<string>mmo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>MySql, PostgreSql</string>
+		<key>shortcut</key>
+		<string>mmp</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>+56 9 68002846 + cocandoazuaje@gmail.com</string>
+		<key>shortcut</key>
+		<string>mmt
+mmt</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>+56 9 68002846 + carloseocando@gmail.com</string>
+		<key>shortcut</key>
+		<string>mmt
+mmt</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>     mvn install:install-file \
+       -Dfile="______" \
+       -DgroupId="_____" \
+       -DartifactId="______" \
+       -Dversion="______" \
+       -Dpackaging="______"</string>
+		<key>shortcut</key>
+		<string>mmv</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>mysql</string>
+		<key>shortcut</key>
+		<string>mmy</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ñ</string>
+		<key>shortcut</key>
+		<string>nn</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>13-10-1971</string>
+		<key>shortcut</key>
+		<string>nna</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>react nextjs</string>
+		<key>shortcut</key>
+		<string>nne</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>2&gt;/dev/null</string>
+		<key>shortcut</key>
+		<string>nnu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>  tengo experiencia en linux, unix ,Windows , computación en la nube (EC2, S3, DynamoDB, Servicios(AWS):  python, nodejs)</string>
+		<key>shortcut</key>
+		<string>nnub</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ocando</string>
+		<key>shortcut</key>
+		<string>ooca</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ocando Azuaje</string>
+		<key>shortcut</key>
+		<string>oocaa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>; echo "Buscando ... " ; &gt; /tmp/log.txt ;  subl /tmp/log.txt</string>
+		<key>shortcut</key>
+		<string>oop</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>oracle</string>
+		<key>shortcut</key>
+		<string>oor</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Outlook</string>
+		<key>shortcut</key>
+		<string>oou</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Muestrame el codigo completo corregido listo para copiar y pegar </string>
+		<key>shortcut</key>
+		<string>pp</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hola papi buenos días cómo amaneciste cómo dormiste por aquí todo bien</string>
+		<key>shortcut</key>
+		<string>ppa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>1058153258</string>
+		<key>shortcut</key>
+		<string>ppag</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>panga12345678$</string>
+		<key>shortcut</key>
+		<string>ppan</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>&gt;2 /dev/null</string>
+		<key>shortcut</key>
+		<string>ppap</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>gRAe4Z-9BP%RGRz</string>
+		<key>shortcut</key>
+		<string>ppas</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>ponle  color</string>
+		<key>shortcut</key>
+		<string>ppco</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>|</string>
+		<key>shortcut</key>
+		<string>ppi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>postgres</string>
+		<key>shortcut</key>
+		<string>ppo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ponle color</string>
+		<key>shortcut</key>
+		<string>ppon</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>prompt</string>
+		<key>shortcut</key>
+		<string>ppr</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Presencial</string>
+		<key>shortcut</key>
+		<string>ppre</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hola Primo estás por allí puedes hablar?</string>
+		<key>shortcut</key>
+		<string>ppri</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Hola Primo, como estáis puedes hablar?</string>
+		<key>shortcut</key>
+		<string>ppri2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Pudiste comprar los pañales?</string>
+		<key>shortcut</key>
+		<string>ppu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>python3 /Users/carlosocando/Documentos/python/code/xinfo.py; alias l='ls -la'</string>
+		<key>shortcut</key>
+		<string>ppy</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>porque</string>
+		<key>shortcut</key>
+		<string>pq</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>pwd</string>
+		<key>shortcut</key>
+		<string>pw</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>que   hace esto:</string>
+		<key>shortcut</key>
+		<string>qqu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>que dejaste de almuerzo y cual es lo mio</string>
+		<key>shortcut</key>
+		<string>qqued</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>que hiciste de almuerzo y cual es lo mio</string>
+		<key>shortcut</key>
+		<string>qqueh</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Que mas necesitas?</string>
+		<key>shortcut</key>
+		<string>qquem</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>que tengo de malo</string>
+		<key>shortcut</key>
+		<string>qquet</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>rclone lsl gdrive:_____</string>
+		<key>shortcut</key>
+		<string>rrclone</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Remoto</string>
+		<key>shortcut</key>
+		<string>rre</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>2200000</string>
+		<key>shortcut</key>
+		<string>rre2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>red Hat</string>
+		<key>shortcut</key>
+		<string>rree</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>referido</string>
+		<key>shortcut</key>
+		<string>rref</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>sudo shutdown -r now</string>
+		<key>shortcut</key>
+		<string>rrei</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Reinimar</string>
+		<key>shortcut</key>
+		<string>rrein</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Reinimar Rios</string>
+		<key>shortcut</key>
+		<string>rreir</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Pretensiones de Renta:  2500.000 clp </string>
+		<key>shortcut</key>
+		<string>rrent</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Revisar y corregir</string>
+		<key>shortcut</key>
+		<string>rrev</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Echo " **** buscando texto dentro de estos archivos ..." ; rg -n --glob "___" "___" ./ &gt; /tmp/rg.log ; subl /tmp/rg.log</string>
+		<key>shortcut</key>
+		<string>rrg</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>echo "**** Buscando patron ..." ;  rg "____" &gt; /tmp/rrg.log ; subl /tmp/rrg.log</string>
+		<key>shortcut</key>
+		<string>rrg2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Rios</string>
+		<key>shortcut</key>
+		<string>rrio</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Rios Rios</string>
+		<key>shortcut</key>
+		<string>rriorio</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>find . -type f -name "*___" -exec ___ {} \;</string>
+		<key>shortcut</key>
+		<string>rrmf</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>26675657-7</string>
+		<key>shortcut</key>
+		<string>rrut</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ryzen</string>
+		<key>shortcut</key>
+		<string>rryz</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Vagrant, Terraform, Docker</string>
+		<key>shortcut</key>
+		<string>ssa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Santiago de Chile </string>
+		<key>shortcut</key>
+		<string>ssac</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Santiago Centro</string>
+		<key>shortcut</key>
+		<string>ssan</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Spring Boot</string>
+		<key>shortcut</key>
+		<string>ssb</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Sermaluc</string>
+		<key>shortcut</key>
+		<string>sse</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>603.113.339</string>
+		<key>shortcut</key>
+		<string>sser</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>significado</string>
+		<key>shortcut</key>
+		<string>ssig</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>si no recibes ningun parametro explica como se usa</string>
+		<key>shortcut</key>
+		<string>ssin</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>solo comentarios</string>
+		<key>shortcut</key>
+		<string>sso</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Solo  cometarios y Muestrame el codigo completo corregido listo para copiar y pegar  </string>
+		<key>shortcut</key>
+		<string>ssol</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>df -h /dev/disk3s3s1</string>
+		<key>shortcut</key>
+		<string>sspa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Spring Boot: 4 a 5 años </string>
+		<key>shortcut</key>
+		<string>sspbx</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>SQL Server, MariaDB, MySQL y PostgreSQL.</string>
+		<key>shortcut</key>
+		<string>ssq</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>	•	SQL Server
+	•	PostgreSQL
+	•	MySQL
+	•	MongoDB
+	•	DynamoDB</string>
+		<key>shortcut</key>
+		<string>ssql</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Sustitucion de Texto</string>
+		<key>shortcut</key>
+		<string>ssu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>suse linx</string>
+		<key>shortcut</key>
+		<string>ssus</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>titulo y comentarios</string>
+		<key>shortcut</key>
+		<string>tc</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>alias todo='rclone copy ~/.zxfunction gdrive: --progress ; rclone copy ~/.zxalias gdrive: --progress ; rclone copy ~/.zshrc gdrive: --progress'</string>
+		<key>shortcut</key>
+		<string>tt</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>transformme esto a postgres</string>
+		<key>shortcut</key>
+		<string>ttap</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>648</string>
+		<key>shortcut</key>
+		<string>ttc</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>+56 9 68002846</string>
+		<key>shortcut</key>
+		<string>ttel</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>+56983723871</string>
+		<key>shortcut</key>
+		<string>ttel2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>terraform</string>
+		<key>shortcut</key>
+		<string>tter</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>06/29</string>
+		<key>shortcut</key>
+		<string>ttf</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Time Machine</string>
+		<key>shortcut</key>
+		<string>tti</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ponle Titulo , comentarios , reidenta y Muestrame el codigo completo corregido listo para copiar y pegar  </string>
+		<key>shortcut</key>
+		<string>ttitu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>titulo y comentarios  encima de cada instruccion</string>
+		<key>shortcut</key>
+		<string>ttitulo</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>5176085144841036</string>
+		<key>shortcut</key>
+		<string>ttn</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>rclone copy gdrive:_7z_todo . --include </string>
+		<key>shortcut</key>
+		<string>ttod</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>trackpad</string>
+		<key>shortcut</key>
+		<string>ttr</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Traduce</string>
+		<key>shortcut</key>
+		<string>ttra</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>ubuntu</string>
+		<key>shortcut</key>
+		<string>uub</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Universidad Rafael Belloso Ch. Maracaibo Venezuela</string>
+		<key>shortcut</key>
+		<string>uuni</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>vagrant</string>
+		<key>shortcut</key>
+		<string>vva</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Venezuela</string>
+		<key>shortcut</key>
+		<string>vve</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Venezuela</string>
+		<key>shortcut</key>
+		<string>vven</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Venezuela</string>
+		<key>shortcut</key>
+		<string>vvene</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>system_profiler SPHardwareDataType SPSoftwareDataType SPStorageDataType|grep Version</string>
+		<key>shortcut</key>
+		<string>vver</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>virtualbox</string>
+		<key>shortcut</key>
+		<string>vvi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>vimware</string>
+		<key>shortcut</key>
+		<string>vvim</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>~</string>
+		<key>shortcut</key>
+		<string>vvirg</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>vmware</string>
+		<key>shortcut</key>
+		<string>vvm</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Whatsap</string>
+		<key>shortcut</key>
+		<string>wwh</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>wise</string>
+		<key>shortcut</key>
+		<string>wwi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Windows</string>
+		<key>shortcut</key>
+		<string>wwin</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>windows nt</string>
+		<key>shortcut</key>
+		<string>wwn</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>aws_(ec2_s3_grupos_de_seguridad_y_iam_ami_rds_)</string>
+		<key>shortcut</key>
+		<string>wws2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>http://urbe.edu</string>
+		<key>shortcut</key>
+		<string>www</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>cd /tmp</string>
+		<key>shortcut</key>
+		<string>xt</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>echo "Buscando ..." ; fd "*__*" / 2&gt;/dev/null &gt; /tmp/xfd.log;code /tmp/xfd.log</string>
+		<key>shortcut</key>
+		<string>xxfd</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>~/.zshrc</string>
+		<key>shortcut</key>
+		<string>xz</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Yormery2$</string>
+		<key>shortcut</key>
+		<string>yyor</string>
+	</dict>
+</array>
+</plist>
