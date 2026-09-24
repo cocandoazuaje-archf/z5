@@ -4218,3 +4218,24 @@ function battery_health {
 
     echo -e "${YELLOW}========================================${RESET}\n"
 }
+
+# ==============================================================================
+# Título: Función hhoy_p para generación y copiado rápido al portapapeles
+# Descripción: Ejecuta el comando interno, le concatena un guion bajo (_), 
+#              copia el resultado al portapapeles y ofrece ayuda si se pasa '?'.
+# ==============================================================================
+
+function hhoy_p {
+    # Muestra la ayuda si el primer argumento es '?'
+    if [[ "$1" == "?" ]]; then
+        echo "Uso: hhoy_p"
+        echo "Descripción: Ejecuta '$(hhoyp)_' y copia el resultado automáticamente al portapapeles."
+        return 0
+    fi
+    
+    # Genera la variable concatenando el resultado de hhoyp con '_'
+    local v="$(hhoyp)_"
+    
+    # Envía el valor resultante al portapapeles (requiere pbcopy en macOS o xclip/xsel en Linux)
+    echo "$v" | pbcopy
+}
