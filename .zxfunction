@@ -4234,7 +4234,7 @@ function hhoy_p {
     fi
     
     # Genera la variable concatenando el resultado de hhoyp con '_'
-    local v="$(hhoyp)_"
+    local v="$(hhoyp)_$1"
     
     # Envía el valor resultante al portapapeles (requiere pbcopy en macOS o xclip/xsel en Linux)
     echo "$v" | pbcopy
