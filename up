@@ -1,4 +1,5 @@
 git pull
 v="$(hhoyp)_" 
+ec $v|pb
 git add -f .
 git commit -m "$v"
