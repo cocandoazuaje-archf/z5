@@ -3587,7 +3587,7 @@ function hhoyp {
     echo "$texto" | pbcopy
     
     # Imprime el mensaje de confirmación en la terminal
-    echo "¡Copiado al portapapeles: $texto!"
+    echo "$texto!"
 }
 
 # ==============================================================================
@@ -4238,4 +4238,5 @@ function hhoy_p {
     
     # Envía el valor resultante al portapapeles (requiere pbcopy en macOS o xclip/xsel en Linux)
     echo "$v" | pbcopy
+    echo "¡Texto copiado al portapapeles: $v!"
 }
