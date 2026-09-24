@@ -4240,3 +4240,24 @@ function hhoy_p {
     echo "$v" | pbcopy
     echo "¡Texto copiado al portapapeles: $v!"
 }
+
+
+
+# ==============================================================================
+# Título: Función hhoy_p para generación y copiado rápido al portapapeles
+# Descripción: Ejecuta el comando interno, le concatena un guion bajo (_), 
+#              copia el resultado al portapapeles y ofrece ayuda si se pasa '?'.
+# ==============================================================================
+
+function rrutp {
+    # Muestra la ayuda si el primer argumento es '?'
+    if [[ "$1" == "?" ]]; then
+        echo "Uso: rrutp"
+        echo "Descripción: Ejecuta '$(rrutp)_' y copia el resultado automáticamente al portapapeles."
+        return 0
+    fi
+    
+    # Envía el valor resultante al portapapeles (requiere pbcopy en macOS o xclip/xsel en Linux)
+    echo "26675657-7" | pbcopy
+    echo "¡Texto copiado al portapapeles: 26675657-7!"
+}
