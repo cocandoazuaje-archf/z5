@@ -1,2 +1,1 @@
-v="$(hhoyp)_" 
-ec $v|pb
+v="$(hhoyp)_" ; ec $v|pb
