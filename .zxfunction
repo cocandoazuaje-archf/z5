@@ -53,7 +53,7 @@ RESET="\033[0m"
 # Descripción:
 #   - Verifica que un comando exista en el sistema
 # ============================================================
-function xrequire() {
+function xrequire {
 
     # Validar parámetro
     if [ -z "$1" ]; then
@@ -80,7 +80,7 @@ function xrequire() {
 # Uso:
 #   xfind <nombre_archivo> [texto_filtro]
 # ============================================================
-function xfind() {
+function xfind {
 
     local archivos
     local filtro="$2"
@@ -319,7 +319,7 @@ function xfinder {
 # Uso:
 #   xll [ruta]
 # ------------------------------------------------------------
-function xll() {
+function xll {
 
     # Listado detallado ordenado por tamaño
     command ls -lahSr "${1:-.}"
@@ -1688,7 +1688,7 @@ function xmvnglas {
 #   xdriveup
 # ============================================================
 
-function xdriveup() {
+function xdriveup {
 
     # --------------------------------------------------------
     # Validar que no se reciban parámetros
@@ -1820,7 +1820,7 @@ function xdriveup() {
 #   xtart todo_git.tar.gz
 # ============================================================
 
-function xtart() {
+function xtart {
 
     # Validar parámetro
     if [[ $# -lt 1 ]]; then
@@ -1888,7 +1888,7 @@ function xtart() {
 #   xgitz "Backup configuración shell"
 # ============================================================
 
-function xgitz() {
+function xgitz {
 
     local COMMIT_MSG="Actualizando perfiles ..."
     local ZSHRC="$HOME/.zshrc"
@@ -1945,7 +1945,7 @@ function xgitz() {
 #   xfindporc "crypto|encrypt|jar"
 # ============================================================
 
-function xfindporc() {
+function xfindporc {
 
     # ----------------------------------------------------------
     # Validar parámetro obligatorio
@@ -2021,7 +2021,7 @@ function xfindporc() {
 # EJEMPLO:
 #   xbateria
 # ============================================================
-function xbate() {
+function xbate {
     OS=$(uname)
 
     # Colores
@@ -2101,7 +2101,7 @@ function xbate() {
 # DISCO
 # VISUALIZACIÓN DE ESPACIO EN DISCO
 # ____________________________________________________________
-function xdf() {
+function xdf {
 
     # Mostrar información de disco con encabezados coloreados
     df -h | awk '
@@ -2118,7 +2118,7 @@ function xdf() {
 # INFORMACIÓN GENERAL DEL SISTEMA
 # PANEL DE ESTADO COMPLETO
 # ____________________________________________________________
-function xinfo() {
+function xinfo {
 
     # Limpiar pantalla
     clear
@@ -2288,7 +2288,7 @@ function xinfo() {
     # PING
     # VERIFICACIÓN DE HOSTS DEFINIDOS EN /etc/hosts
     # ____________________________________________________________
-    function xping() {
+    function xping {
 
         # ----------------------------------------------------------
         # COLORES
@@ -2337,7 +2337,7 @@ function xinfo() {
         echo -e "${BLUE}=== Finalizado ===${RESET}"
     }
 
-    function xsyngit() {
+    function xsyngit {
 
         echo "=============================="
         echo "  INICIANDO SINCRONIZACIÓN"
@@ -2583,7 +2583,7 @@ function xinfo() {
 
             }
 
-            function xformatall() {
+            function xformatall {
 
                 if [ "$1" = "?" ]; then
                     echo "--------------------------------------------------"
@@ -2990,7 +2990,7 @@ EOF
 
             }
 
-            function xmvnclp() {
+            function xmvnclp {
                 local TITULO="${1:-Maven Build}"
                 local PROYECTO
                 local OUTPUT
@@ -3066,7 +3066,7 @@ function xmvnall {
 
 #!/bin/bash
 
-function xcp () {
+function xcp  {
     local ORIGEN="$1"
     local DESTINO="$2"
 
@@ -3202,7 +3202,7 @@ function pdf2md {
 import pypdf, sys
 try:
     reader = pypdf.PdfReader(sys.argv[1])
-    pages_text = [page.extract_text() or '' for page in reader.pages]
+    pages_text = [page.extract_text or '' for page in reader.pages]
     print('\n\n'.join(pages_text))
 except Exception as e:
     sys.stderr.write(f'Error al procesar el PDF: {e}\n')
@@ -3552,121 +3552,7 @@ function xrg {
 }
 
 
-# ==============================================================================
-# TÍTULO: Script de Diagnóstico e Información Integral del Sistema macOS
-# DESCRIPCIÓN: Muestra un resumen organizado del sistema (SO, Hardware, RAM,
-#              Disco, Red y Batería) optimizado para macOS (Intel y Apple Silicon).
-# ==============================================================================
 
-function xc {
-    # --------------------------------------------------------------------------
-    # 0. CONFIGURACIÓN DE COLORES Y FUNCIONES DE FORMATO
-    # --------------------------------------------------------------------------
-    local BOLD='\033[1m'
-    local RED='\033[0;31m'
-    local CYAN='\033[0;36m'
-    local GREEN='\033[0;32m'
-    local YELLOW='\033[1;33m'
-    local RESET='\033[0m'
-
-    # Imprime un encabezado con estilo para cada sección
-    print_header() {
-        echo -e "\n${BOLD}${CYAN}=== $1 ===${RESET}"
-    }
-
-    # Imprime clave/valor alineados en columna
-    print_item() {
-        printf "${GREEN}%-20s${RESET} : %s\n" "$1" "$2"
-    }
-
-    # Limpiar pantalla e imprimir título principal
-    clear
-    echo -e "${BOLD}${YELLOW}    INFORMACIÓN COMPLETA DEL SISTEMA    ${RESET}"
-    echo -e "${YELLOW}========================================${RESET}"
-
-    # --------------------------------------------------------------------------
-    # 1. SISTEMA OPERATIVO Y TIEMPO DE ACTIVIDAD
-    # --------------------------------------------------------------------------
-    print_header "SISTEMA OPERATIVO"
-    print_item "Nombre SO" "$(sw_vers -productName)"
-    print_item "Versión macOS" "$(sw_vers -productVersion)"
-    print_item "Build" "$(sw_vers -buildVersion)"
-    print_item "Kernel" "$(uname -r)"
-    print_item "Host Name" "$(hostname)"
-    print_item "Tiempo encendido" "$(uptime | awk -F'up ' '{print $2}' | awk -F',' '{print $1}' | xargs)"
-
-    # --------------------------------------------------------------------------
-    # 2. HARDWARE PRINCIPAL Y PROCESADOR
-    # --------------------------------------------------------------------------
-    print_header "HARDWARE Y PROCESADOR"
-    print_item "Modelo" "$(sysctl -n hw.model)"
-    print_item "Arquitectura" "$(uname -m)"
-
-    # Identificación precisa de procesador (Intel vs Apple Silicon)
-    local cpu_info
-    cpu_info=$(sysctl -n machdep.cpu.brand_string 2>/dev/null)
-    if [ -z "$cpu_info" ]; then
-        if [ "$(sysctl -n hw.optional.arm64 2>/dev/null)" = "1" ] || [ "$(uname -m)" = "arm64" ]; then
-            cpu_info="Apple Silicon"
-        else
-            cpu_info="Desconocido"
-        fi
-    fi
-    print_item "Procesador / Chip" "$cpu_info"
-    print_item "Núcleos Totales" "$(sysctl -n hw.ncpu)"
-
-    # --------------------------------------------------------------------------
-    # 3. MEMORIA RAM
-    # --------------------------------------------------------------------------
-    print_header "MEMORIA RAM"
-    local ram_bytes ram_gb
-    ram_bytes=$(sysctl -n hw.memsize 2>/dev/null || echo 0)
-    ram_gb=$((ram_bytes / 1024 / 1024 / 1024))
-    print_item "RAM Total" "${ram_gb} GB"
-
-    # --------------------------------------------------------------------------
-    # 4. ALMACENAMIENTO (DISCO PRINCIPAL)
-    # --------------------------------------------------------------------------
-    print_header "ALMACENAMIENTO (Disco Principal)"
-    df -h / | awk 'NR==2 {printf "\033[0;32m%-20s\033[0m : Total: %s | Usado: %s (%s) | Libre: %s\n", "Espacio en disco", $2, $3, $5, $4}'
-
-    # --------------------------------------------------------------------------
-    # 5. RED Y CONECTIVIDAD
-    # --------------------------------------------------------------------------
-    print_header "RED Y CONECTIVIDAD"
-    local ip_local ip_pub
-    ip_local=$(ipconfig getifaddr en0 2>/dev/null || ipconfig getifaddr en1 2>/dev/null || echo "No disponible")
-    print_item "IP Local" "$ip_local"
-
-    ip_pub=$(curl -s --max-time 2 https://ifconfig.me 2>/dev/null || echo "Sin conexión / No disponible")
-    print_item "IP Pública" "$ip_pub"
-
-    # --------------------------------------------------------------------------
-    # 6. BATERÍA Y SALUD (SOLO EQUIPOS PORTÁTILES)
-    # --------------------------------------------------------------------------
-    if pmset -g batt | grep -q "InternalBattery"; then
-        print_header "BATERÍA Y SALUD"
-
-        local batt_charge batt_cycles batt_condition batt_max_cap power_data
-        
-        # Estado y porcentaje de carga actual
-        batt_charge=$(pmset -g batt | grep -o "[0-9]*%; [a-zA-Z]*" | head -n 1)
-
-        # Consulta centralizada a system_profiler para optimizar velocidad
-        power_data=$(system_profiler SPPowerDataType 2>/dev/null)
-        batt_cycles=$(echo "$power_data" | awk -F': ' '/Cycle Count/ {print $2}' | xargs)
-        batt_condition=$(echo "$power_data" | awk -F': ' '/Condition/ {print $2}' | xargs)
-        batt_max_cap=$(echo "$power_data" | awk -F': ' '/Maximum Capacity/ {print $2}' | xargs)
-
-        print_item "Carga / Estado" "${batt_charge:-No disponible}"
-        printf "${YELLOW}%-20s${RESET} : %s\n" "Ciclos restantes" "$((1000 - batt_cycles))"
-        printf "${RED}%-20s${RESET} : %s\n" "Ciclos de carga" "${batt_cycles:-No disponible}"
-        print_item "Condición" "${batt_condition:-No disponible}"
-        [ -n "$batt_max_cap" ] && print_item "Capacidad Máxima" "$batt_max_cap"
-    fi
-
-    echo -e "\n${YELLOW}========================================${RESET}\n"
-}
 
 
 # ==============================================================================
@@ -3948,7 +3834,7 @@ function off2a {
     sudo shutdown -h 02:00
 }
 
-function ccreap() {
+function ccreap {
 # ============================================================
 # Script: ccreap
 # Autor: Carlos
@@ -3965,7 +3851,7 @@ function ccreap() {
         return 0
     fi
 
-    local texto="Crea una función llamada  : ___ que haga ___ y que reciba ___ o 0 como parámetros. Si no recibe parámetros, debe explicar cómo se usa, Debes usar functionaw y no (), agregar título y comentarios, La salida de errores debe redirigirse a /dev/null, Al finalizar, debe enviar la salida sin errores a un archivo ubicado en /tmp/nombre de la funcion.txt,   luego debe abrir dicho archivo con la aplicación code."
+    local texto="Crea una función llamada  : ___ que haga ___ y que reciba ___ o 0 como parámetros. Si no recibe parámetros, debe explicar cómo se usa, Debes usar functionaw y no , agregar título y comentarios, La salida de errores debe redirigirse a /dev/null, Al finalizar, debe enviar la salida sin errores a un archivo ubicado en /tmp/nombre de la funcion.txt,   luego debe abrir dicho archivo con la aplicación code."
 
     # Copiar al portapapeles redirigiendo posibles errores a /dev/null
     echo -n "$texto" | pbcopy 2>/dev/null
@@ -4256,4 +4142,79 @@ function mmailp {
 
     echo -n "cocandoazuaje@gmail.com" | pbcopy
     echo "¡'cocandoazuaje@gmail.com' copiado al portapapeles con éxito!"
+}
+
+
+# ============================================================
+# Script: eexpp
+# Autor: Carlos
+# Descripción:
+#   Esta función copia la palabra "explicalo" al portapapeles.
+#   Si recibe como parámetro "?" o "0", explica su uso.
+#   Si no recibe parámetros, también muestra la ayuda.
+# ============================================================
+function eexpp {
+    if [[ "$1" == "?" || "$1" == "0" ]]; then
+        echo "Uso: eexpp"
+        echo "Copia la palabra 'explicalo  ' al portapapeles."
+        echo "Parámetros:"
+        echo "  ? o 0   Muestra esta ayuda."
+        return 0
+    fi
+
+    echo -n "explicalo" | pbcopy
+    echo "¡'explicalo' copiado al portapapeles con éxito!"
+}
+
+function battery_health {
+    # --------------------------------------------------------------------------
+    # CONFIGURACIÓN DE COLORES
+    # --------------------------------------------------------------------------
+    local BOLD='\033[1m'
+    local RED='\033[0;31m'
+    local CYAN='\033[0;36m'
+    local GREEN='\033[0;32m'
+    local YELLOW='\033[1;33m'
+    local RESET='\033[0m'
+
+    # Limpiar pantalla y mostrar título
+    clear
+    echo -e "${BOLD}${YELLOW}    ESTADO Y SALUD DE LA BATERÍA    ${RESET}"
+    echo -e "${YELLOW}========================================${RESET}"
+
+    # Verificar si el equipo tiene batería interna
+    if ! pmset -g batt | grep -q "InternalBattery"; then
+        echo -e "${RED}Este equipo no cuenta con una batería interna o no es accesible.${RESET}\n"
+        return 1
+    fi
+
+    # Variables de batería
+    local batt_charge batt_cycles batt_condition batt_max_cap power_data
+    
+    # Estado y porcentaje de carga actual
+    batt_charge=$(pmset -g batt | grep -o "[0-9]*%; [a-zA-Z]*" | head -n 1)
+
+    # Consulta centralizada a system_profiler
+    power_data=$(system_profiler SPPowerDataType 2>/dev/null)
+    batt_cycles=$(echo "$power_data" | awk -F': ' '/Cycle Count/ {print $2}' | xargs)
+    batt_condition=$(echo "$power_data" | awk -F': ' '/Condition/ {print $2}' | xargs)
+    batt_max_cap=$(echo "$power_data" | awk -F': ' '/Maximum Capacity/ {print $2}' | xargs)
+
+    # Imprimir resultados alineados
+    # printf "${YELLOW}%-20s${RESET} : %s\n" "Ciclos restantes" "$((1000 - batt_cycles))"
+    printf "${GREEN}%-20s${RESET} : %s\n" "Carga / Estado" "${batt_charge:-No disponible}"
+    printf "${YELLOW}%-20s${RESET} : %s\n" "Ciclos estimados rest." "$((1000 - batt_cycles))"
+    printf "${RED}%-20s${RESET} : %s\n" "Ciclos de carga" "${batt_cycles:-No disponible}"
+    
+    # Cálculo estimado de ciclos restantes (asumiendo un límite estándar de 1000)
+    if [[ "$batt_cycles" =~ ^[0-9]+$ ]]; then
+    fi
+    
+    printf "${CYAN}%-20s${RESET} : %s\n" "Condición" "${batt_condition:-No disponible}"
+    
+    if [ -n "$batt_max_cap" ]; then
+        printf "${GREEN}%-20s${RESET} : %s\n" "Capacidad Máxima" "$batt_max_cap"
+    fi
+
+    echo -e "${YELLOW}========================================${RESET}\n"
 }
