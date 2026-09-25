@@ -3652,7 +3652,8 @@ function pab {
 
 function ggitup {
     # Cadena que contiene los comandos de Git encadenados
-    local git_commands='git add -f . && git commit -m "____ " && git push'
+    local git_commands='git add -f . && git commit -m "up_Fri Sep 25 09:34:38 -03 2026!_xx
+ " && git push'
     
     # Envía el texto al portapapeles utilizando la utilidad pbcopy (exclusiva de macOS)
     echo "$git_commands" | pbcopy
