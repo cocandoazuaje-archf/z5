@@ -276,6 +276,12 @@ Cuento con más de 10 años de experiencia en desarrollo FullStack, con habilida
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>casa militar</string>
+		<key>shortcut</key>
+		<string>ccas</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>* linux diploma-terminal
 * Bash
 * Powershell * Fundamentos en DevOps y Arquitectura de Microservicios
@@ -709,6 +715,12 @@ Desarrolle un Dashboard Interactivo con Java Web y AngularJS</string>
 		<string>FullStack y Devops</string>
 		<key>shortcut</key>
 		<string>ffs</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>giga puchi esta x alli?</string>
+		<key>shortcut</key>
+		<string>gg</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
