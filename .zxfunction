@@ -4282,3 +4282,22 @@ function eexplip {
     echo "explica" | pbcopy
     echo "¡Texto copiado al portapapeles: explica!"
 }
+
+# ==============================================================================
+# Título: Función gg2oggp para generación y copiado rápido al portapapeles
+# Descripción: Ejecuta el comando interno, le concatena un guion bajo (_), 
+#              copia el resultado al portapapeles y ofrece ayuda si se pasa '?'.
+# ==============================================================================
+
+function gg2oggp {
+    # Muestra la ayuda si el primer argumento es '?'
+    if [[ "$1" == "?" ]]; then
+        echo "Uso: gg2oggp"
+        echo "Descripción: Convierte un archivo de audio a formato OGG."
+        return 0
+    fi
+    
+    # Envía el valor resultante al portapapeles (requiere pbcopy en macOS o xclip/xsel en Linux)
+    echo "whisper your_audio.ogg --task transcribe" | pbcopy
+    echo "¡Texto copiado al portapapeles: whisper your_audio.ogg --task transcribe!"
+}
