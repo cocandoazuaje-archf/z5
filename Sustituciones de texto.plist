@@ -568,6 +568,12 @@ _ linux diploma-terminal.pd</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>definelo</string>
+		<key>shortcut</key>
+		<string>ddef</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>Delcy Rodriguez</string>
 		<key>shortcut</key>
 		<string>ddel</string>
