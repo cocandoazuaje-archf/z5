@@ -1691,6 +1691,12 @@ mmt</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Viendo noticias</string>
+		<key>shortcut</key>
+		<string>vvie</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>vimware</string>
 		<key>shortcut</key>
 		<string>vvim</string>
