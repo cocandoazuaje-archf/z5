@@ -66,6 +66,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Antonimo</string>
+		<key>shortcut</key>
+		<string>aant</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>@</string>
 		<key>shortcut</key>
 		<string>aar</string>
@@ -1498,6 +1504,12 @@ mmt</string>
 		<string>si no recibes ningun parametro explica como se usa</string>
 		<key>shortcut</key>
 		<string>ssin</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Sinónimo</string>
+		<key>shortcut</key>
+		<string>ssino</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
