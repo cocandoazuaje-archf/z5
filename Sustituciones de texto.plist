@@ -393,6 +393,12 @@ system_profiler SPPowerDataType |grep -i 'Cycle Count'
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>como se dice</string>
+		<key>shortcut</key>
+		<string>ccomos</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>(• Claude code • Angular • AngularJS • Java • JUnit • Spring Boot • SQL • Docker • Terraform • Groovy • Bash • Git • CI/CD • AWS (EC2,S3,IAM,RDS) • Linux • macOS • Vagrant • VirtualBox • VMware • PowerShell • Tomcat)</string>
 		<key>shortcut</key>
 		<string>ccompe</string>
