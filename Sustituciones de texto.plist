@@ -1357,6 +1357,12 @@ mmt</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>que imprime?</string>
+		<key>shortcut</key>
+		<string>qquei</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>Que mas necesitas?</string>
 		<key>shortcut</key>
 		<string>qquem</string>
