@@ -4301,3 +4301,21 @@ function gg2oggp {
     echo "whisper your_audio.ogg --task transcribe" | pbcopy
     echo "¡Texto copiado al portapapeles: whisper your_audio.ogg --task transcribe!"
 }
+
+
+# ==============================================================================
+# Título: Función para suspensión rápida del sistema macOS
+# Descripción: Permite suspender el equipo inmediatamente mediante 'pmset'
+#              o mostrar ayuda si se le pasa el argumento '?'.
+# ==============================================================================
+
+function off2 {
+    # Verifica si el primer argumento recibido es '?'
+    if [[ "$1" == "?" ]]; then
+        echo "Uso: off2"
+        echo "Descripción: Pone el Mac en modo reposo inmediatamente usando 'pmset sleepnow'."
+    else
+        # Ejecuta el comando de suspensión de macOS
+        pmset sleepnow
+    fi
+}
