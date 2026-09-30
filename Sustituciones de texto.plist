@@ -1110,6 +1110,12 @@ Desarrolle un Dashboard Interactivo con Java Web y AngularJS</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Mejoralo   </string>
+		<key>shortcut</key>
+		<string>mme2</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>&lt;</string>
 		<key>shortcut</key>
 		<string>mmen</string>
