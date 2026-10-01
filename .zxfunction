@@ -4319,3 +4319,19 @@ function off2 {
         pmset sleepnow
     fi
 }
+
+# ==============================================================================
+# Función: off
+# Descripción: Permite apagar el Mac inmediatamente mediante 'sudo pmset' 
+#              o mostrar ayuda rápida si se pasa el argumento '?'.
+# ==============================================================================
+function off() {
+    # Verifica si el argumento proporcionado es el signo de interrogación para mostrar ayuda
+    if [[ "$1" == "?" ]]; then
+        echo "Uso: off"
+        echo "Descripción: Apaga el Mac inmediatamente usando 'sudo pmset shutdown now'."
+    else
+        # Ejecuta el comando de apagado inmediato de macOS (requiere privilegios sudo)
+        sudo pmset shutdown now
+    fi
+}
