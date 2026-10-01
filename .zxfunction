@@ -6,8 +6,8 @@
 # Descripción:
 #   - Variables globales para despliegue GlassFish
 #   - Función avanzada de búsqueda de archivos
-#   - Soporte para filtrado interactivo
 #   - Exportación automática dxfde resultados
+#   - Soporte para filtrado interactivo
 # ============================================================
 
 # ============================================================
@@ -4325,13 +4325,18 @@ function off2 {
 # Descripción: Permite apagar el Mac inmediatamente mediante 'sudo pmset' 
 #              o mostrar ayuda rápida si se pasa el argumento '?'.
 # ==============================================================================
-function off() {
-    # Verifica si el argumento proporcionado es el signo de interrogación para mostrar ayuda
-    if [[ "$1" == "?" ]]; then
+
+# Apagar el equipo (Compatible con macOS y Linux )
+function off {
+    if [ "$1" = "?" ]; then
         echo "Uso: off"
-        echo "Descripción: Apaga el Mac inmediatamente usando 'sudo pmset shutdown now'."
-    else
-        # Ejecuta el comando de apagado inmediato de macOS (requiere privilegios sudo)
-        sudo pmset shutdown now
+        echo "Descripción: Apaga el equipo de forma inmediata utilizando privilegios de superusuario (sudo)."
+        echo "Sistemas compatibles: Linux, macOS y BSD."
+        return 0
     fi
+
+    # Si estás en macOS / BSD, usa -h o -s
+    # Si estás en Linux, puedes omitir la bandera o usar -h
+    echo "Apagando el equipo..."
+    sudo shutdown -h now
 }
