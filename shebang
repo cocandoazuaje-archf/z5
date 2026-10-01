@@ -1,0 +1,13 @@
+Como el shebang (#!) no es una instrucción propia del lenguaje de programación en sí, sino una directiva que lee el sistema operativo (el núcleo del sistema) antes de abrir el archivo, sirve para cualquier lenguaje que tenga un intérprete de línea de comandos.  
+
+1. Lenguajes de scripting e interpretados
+Python: #!/usr/bin/env python3
+JavaScript / TypeScript: #!/usr/bin/env node (para ejecutar scripts con Node.js)
+Bash / Shell: #!/bin/bash o #!/bin/sh
+Ruby: #!/usr/bin/env ruby
+Perl: #!/usr/bin/env perl
+PHP: #!/usr/bin/env php (cuando se usa PHP para scripts de consola)
+Lua: #!/usr/bin/env lua
+R: #!/usr/bin/env Rscript
+Node (TypeScript con ts-node): #!/usr/bin/env ts-node
+
