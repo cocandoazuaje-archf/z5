@@ -1,4 +1,6 @@
-Como el shebang (#!) no es una instrucción propia del lenguaje de programación en sí, sino una directiva que lee el sistema operativo (el núcleo del sistema) antes de abrir el archivo, sirve para cualquier lenguaje que tenga un intérprete de línea de comandos.  
+Como el shebang (#!) no es una instrucción propia del lenguaje de programación en sí, 
+sino una directiva que lee el sistema operativo (el núcleo del sistema) antes de abrir el archivo, 
+sirve para cualquier lenguaje que tenga un intérprete de línea de comandos.  
 
 1. Lenguajes de scripting e interpretados
 Python: #!/usr/bin/env python3
