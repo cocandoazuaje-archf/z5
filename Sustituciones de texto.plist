@@ -4,6 +4,12 @@
 <array>
 	<dict>
 		<key>phrase</key>
+		<string>???????????</string>
+		<key>shortcut</key>
+		<string>_?</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>"HASME 20 PERGUNTAS DE SELECCION SIMPLE Y DESPUES DE CADA RESPUESTA DIME SI E S CORRECTA O NO , AL FINAL DEBE PERSENTARME EN RESUMEN O SCORE: TEMA: ____ , segun la nota obtenida cuanto equivaldría a la nota del 1 al 7, Enumérame las posibles respuestas" el resultado tiene que ser una pagina html
 "HASME 20 PERGUNTAS DE SELECCION SIMPLE Y DESPUES DE CADA RESPUESTA DIME SI E S CORRECTA O NO , AL FINAL DEBE PERSENTARME EN RESUMEN O SCORE: TEMA: ____ , segun la nota obtenida cuanto equivaldría a la nota del 1 al 7, Enumérame las posibles respuestas" el resultado tiene que ser una pagina html
 "HASME 20 PERGUNTAS DE SELECCION SIMPLE Y DESPUES DE CADA RESPUESTA DIME SI E S CORRECTA O NO , AL FINAL DEBE PERSENTARME EN RESUMEN O SCORE: TEMA: ____ , segun la nota obtenida cuanto equivaldría a la nota del 1 al 7, Enumérame las posibles respuestas" el resultado tiene que ser una pagina html</string>
