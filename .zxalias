@@ -422,7 +422,7 @@ alias ytd='yt-dlp -S "res,ext:mp4:m4a" --recode mp4'
 
 alias hhoy='up_$(date)dd|pb'
 
-alias grv='git remote -v'
+alias gr='git remote -v'
 
 alias gp2='git pull'
  
