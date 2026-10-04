@@ -424,7 +424,7 @@ alias hhoy='up_$(date)dd|pb'
 
 alias grv='git remote -v'
 
-alias gup='git pull'
+alias gp2='git pull'
  
 alias ex='exit'
 
