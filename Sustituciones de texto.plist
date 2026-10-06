@@ -1357,6 +1357,12 @@ mmt</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>que quiere decir </string>
+		<key>shortcut</key>
+		<string>qque</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>que dejaste de almuerzo y cual es lo mio</string>
 		<key>shortcut</key>
 		<string>qqued</string>
