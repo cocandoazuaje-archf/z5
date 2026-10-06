@@ -30,6 +30,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>"_"</string>
+		<key>shortcut</key>
+		<string>""</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>jja</string>
 		<key>shortcut</key>
 		<string>(java-avascript-SpringBoot)</string>
