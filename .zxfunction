@@ -4361,3 +4361,24 @@ function ttelp {
     echo "+56 9 68002846" | pbcopy
     echo "¡Texto copiado al portapapeles: +56 9 68002846!"
 }
+
+function transcribir_video {
+  if [ $# -lt 1 ]; then
+    echo "Uso: transcribir_video archivo.mov [idioma] [modelo]"
+    return 1
+  fi
+
+  local IN="$1"
+  local LANG_CODE="${2:-es}"      # idioma, por defecto español
+  local MODEL="${3:-small}"       # tiny, base, small, medium, large
+  local BASE="${IN%.*}"
+
+  # 1. Extraer audio en mono, 16 kHz
+  ffmpeg -y -i "$IN" -vn -ac 1 -ar 16000 "$BASE.wav"
+
+  # 2. Transcribir
+  whisper "$BASE.wav" --language "$LANG_CODE" --model "$MODEL" \
+          --output_format txt --output_dir .
+
+  echo "Listo: $BASE.txt"
+}
