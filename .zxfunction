@@ -4362,9 +4362,9 @@ function ttelp {
     echo "¡Texto copiado al portapapeles: +56 9 68002846!"
 }
 
-function transcribir_video {
+function transcribir_audio {
   if [ $# -lt 1 ]; then
-    echo "Uso: transcribir_video archivo.mov [idioma] [modelo]"
+    echo "Uso: transcribir_audio archivo [idioma] [modelo]"
     return 1
   fi
 
