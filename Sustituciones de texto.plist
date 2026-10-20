@@ -1303,6 +1303,12 @@ mmt</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>pomito</string>
+		<key>shortcut</key>
+		<string>ppom</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>Ponle color</string>
 		<key>shortcut</key>
 		<string>ppon</string>
@@ -1724,6 +1730,12 @@ mmt</string>
 		<string>Venezuela</string>
 		<key>shortcut</key>
 		<string>vve</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Venezolanos</string>
+		<key>shortcut</key>
+		<string>vve2</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
