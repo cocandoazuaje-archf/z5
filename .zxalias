@@ -432,4 +432,4 @@ alias ec='echo'
 
 alias mmailp="cocandoazuaje@gmail.com"
 
-alias gdux='ncdu'
+alias gdu='ncdu'
