@@ -393,6 +393,12 @@ system_profiler SPPowerDataType |grep -i 'Cycle Count'
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>colombia</string>
+		<key>shortcut</key>
+		<string>ccol</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>comentame todas las lineas que contengan la palabra </string>
 		<key>shortcut</key>
 		<string>ccom</string>
